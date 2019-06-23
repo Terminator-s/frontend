@@ -5,7 +5,7 @@ import HeaderMain from '../../Header'
 import Footer from '../../Footer'
 import '../sStudent.css'
 import {Card, Button} from 'react-bootstrap'
-import Nav from '../../Navigator'
+import Nav from '../../AdminNavigator'
 
 
 class StudentViewAssignment extends Component {

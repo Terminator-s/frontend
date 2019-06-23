@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import logo from './resources/logo.png'
 import Nav from 'react-bootstrap/Nav'
 import {Navbar , Button} from "react-bootstrap";
-import {BrowserRouter as Router, NavLink} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
+
 import './Home.css'
 
 

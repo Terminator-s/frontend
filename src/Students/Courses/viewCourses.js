@@ -4,7 +4,7 @@ import '../../Slideshow.scss'
 import HeaderMain from '../../Header'
 import Footer from '../../Footer'
 import '../sStudent.css'
-import Nav from '../../Navigator'
+import Nav from '../../AdminNavigator'
 import {Card, Table, Button, Form, FormControl, Col} from 'react-bootstrap'
 
 

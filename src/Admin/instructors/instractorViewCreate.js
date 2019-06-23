@@ -7,7 +7,7 @@ import {Card, Accordion, Button} from 'react-bootstrap'
 import View from './instractorView'
 import Create from './instractorCreate'
 import '../admin.css'
-import Nav from '../../Navigator'
+import Nav from '../../AdminNavigator'
 
 
 class InstructorViewCreate extends Component {

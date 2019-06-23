@@ -4,11 +4,16 @@ import '../../Slideshow.scss'
 import HeaderMain from '../../Header'
 import Footer from '../../Footer'
 import '../iInstructors.css'
-import Nav from '../../Navigator'
+import Nav from '../../AdminNavigator'
 import {Card, Table, Button, Form, FormControl, Col} from 'react-bootstrap'
+import ReactDOM from "react-dom";
+import EditMarks from "./iEditMarks";
 
 
 class AssessmentMarks extends Component {
+    next = function(e){
+        ReactDOM.render(<EditMarks />, document.getElementById('root'));
+    };
     render() {
         return (
             <div>
@@ -43,7 +48,7 @@ class AssessmentMarks extends Component {
                             <table align='center'>
                                 <tr>
                                     <td><Button variant="primary" >Add</Button></td>
-                                    <td><Button variant="success" >Edit</Button></td>
+                                    <td><Button variant="success"  onClick={e => this.next(e)} >Edit</Button></td>
                                     <td><Button variant="danger" >Delete</Button></td>
                                 </tr>
                             </table>
